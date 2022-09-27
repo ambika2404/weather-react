@@ -1,0 +1,19 @@
+.Weather {
+  border: 1px solid;
+  padding: 16px;
+}
+
+.Weather h3 {
+  margin-top: 10px;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+}
