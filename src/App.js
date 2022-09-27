@@ -1,15 +1,11 @@
-// import logo from "./logo.svg";
-import Weather from "./Weather";
+import React from "react";
+
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Hello from React</h1>
-      <Weather city="Paris" />
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
+      <h1>Weather App</h1>
     </div>
   );
 }
-
-export default App;
