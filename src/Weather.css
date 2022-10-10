@@ -17,3 +17,8 @@
 .Weather .temperature {
   font-weight: bold;
 }
+.Weather canvas {
+  margin-top: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
