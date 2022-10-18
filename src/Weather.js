@@ -23,7 +23,7 @@ export default function Weather(props) {
     });
   }
   function search() {
-    let apiKey = "931dc49fba96c8c62bbb87a9dc503a65";
+    let apiKey = "34ae1065362d42545661451bda2b8a1f";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -55,12 +55,13 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
+
         <Weatherinfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
     search();
-    return "Loading";
+    return "Loading...";
   }
 }
